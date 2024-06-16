@@ -11,7 +11,9 @@
         @foreach (var link in @Model.Properties.Contacts)
         {
             <a href="@link.Value">
-                <img class="contact-button" src="@IconHelper.GetIcon(@link.Key)" />
+                <img class="contact-button" 
+                     src="@IconHelper.GetIcon(@link.Key)"
+                     alt="@link.Key" />
             </a>
         }
     </div>
