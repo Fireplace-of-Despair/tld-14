@@ -1,0 +1,238 @@
+{
+  "Translations": {
+    "en": {
+      "Name": "Projects",
+      "Description": "Fully completed and available for public access.",
+      "DescriptionAlt": "Description",
+      "Archive": "Archive",
+      "ArchiveDescription": "Discounted projects",
+      "LinksAlt": "Links",
+      "Projects": [
+        {
+          "Key": "ss-ysl",
+          "DivisionKey": "qsd",
+          "DivisionFull": "Quiet Stylographs Division",
+          "ReleaseDate": "2017-06-20T00:00:00.000Z",
+          "Name": "Yharnam: Seems Legit",
+          "Image": "/images/projects/ss-ysl.png",
+          "ImageAlt": "",
+          "DescriptionShort": "A short parody comic about Bloodborne videogame.",
+          "DescriptionFull": "A short parody comic inspired by the <a href=\"https://www.fromsoftware.jp/ww/detail.html?csm=094\">Bloodborne</a> video game from <a href=\"https://www.fromsoftware.jp/ww/\">FromSoftware</a> studio.<br/><br/>Illustrated by the talented <a href=\"https://www.pixiv.net/en/users/976281\">Mister Roa</a> and translated into Japanese by the skilled <a href=\"http://www.boku.ru/\">Mister Chapt</a>.<br/>Unlike the original game, with cosmic horrors and an unforgiving world, this comic takes a light-hearted approach.<br/><br/>Just a series of humorous sketches that poke fun at the everyday occurrences in Bloodborne's dark and esoteric universe.<br/><br/>Whether you're a seasoned hunter or the fresh blood of Yharnam, this comic promises to offer a quick and entertaining perspective on the grim world of Bloodborne.",
+          "LinksAlt": "Links",
+          "Links": {
+            "pixiv_en": "https://www.pixiv.net/user/976281/series/5220",
+            "pixiv_ja": "https://www.pixiv.net/user/976281/series/5187"
+          }
+        },
+        {
+          "Key": "ss-tgfmb",
+          "DivisionKey": "acd",
+          "DivisionFull": "Ashen Chronicles Division",
+          "ReleaseDate": "2019-07-02T00:00:00.000Z",
+          "Name": "Frontline Maid Bot",
+          "Image": "/images/projects/ss-tgfmb.png",
+          "ImageAlt": "",
+          "DescriptionShort": "Chatbot for a Girls’ Frontline mobile game community, represented in Telegram messenger.",
+          "DescriptionFull": "Efficient chatbot designed for the community of the \"Girls’ Frontline\" mobile game within Telegram messenger.<br/><br/>At the core, the design is simple and straightforward: users send a request and instantly receive a response.<br/><br/>The bot leverages a flat local database, meticulously curated from various online sources. It provides expert advice, unit characteristics, rankings, and strategic insights on the deployment and utilization of all available game units.<br/><br/>Engineered using C# along with supplementary libraries.",
+          "LinksAlt": "Links",
+          "Links": {
+            "github_": "https://github.com/ChiefNoir/ss-tgfmb"
+          }
+        },
+        {
+          "Key": "ss-pbc",
+          "DivisionKey": "acd",
+          "DivisionFull": "Ashen Chronicles Division",
+          "ReleaseDate": "2019-12-31T00:00:00.000Z",
+          "Name": "Personal Business Card",
+          "Image": "/images/projects/ss-pbc.png",
+          "ImageAlt": "",
+          "DescriptionShort": "Previous iteration of this website.",
+          "DescriptionFull": "Back in the day, having a personal website was all the rage.<br/><br/>These websites ranged from the wildly creative and fascinating to the downright bizarre. People showcased everything from professional portfolios to basic \"hello world\" pages peppered with obscene jokes. However, the rise of social networks almost eradicated this trend. Platforms like Twitter and Pixiv made it easier and cheaper to have an online presence. For content creators, it made sense to publish where the audience already are.<br/><br/>Yet, here I am, creating what can only be described as an enterprise-like monstrosity: two REST APIs, microservices, database, caching syste, — features that are utterly unnecessary for something so simple.<br/><br/>In essence, while the era of personal websites may have waned, the drive to experiment, learn, and sometimes just have a bit of fun, remains as strong as ever.",
+          "LinksAlt": "Links",
+          "Links": {
+            "github_": "https://github.com/stainless-chief/ss-pbc"
+          }
+        },
+        {
+          "Key": "ss-blacwaco",
+          "DivisionKey": "tld",
+          "DivisionFull": "Tamed Logic Division",
+          "ReleaseDate": "2021-07-17T00:00:00.000Z",
+          "Name": "Blaswaco",
+          "Image": "/images/projects/ss-blacwaco.png",
+          "ImageAlt": "",
+          "DescriptionShort": "A tabletop game for from 2 to 6+ players. The main goal is to prepare for an inevitable catastrophic events in a dynamic and chaotic world.",
+          "DescriptionFull": "A tabletop game for from 2 to 6+ players.<br/><br/>Welcome to the brink of chaos, where you are in command. The delicate balance of global power is about to be shattered by unforeseen events known as Black Swans. However, you face an unexpected twist: there isn't just one Black Swan, but many, each more disruptive than the last.<br/><br/>Every news broadcast brings new calamities, exacerbating the already volatile situation. Amidst this turmoil, your opponents are executing their own mysterious strategies. Why is one amassing a formidable army at the expense of morale? Why is another pouring resources into healthcare as if there's no tomorrow? What hidden knowledge do they possess, and who among them is bluffing?<br/><br/>Time is of the essence.<br/><br/>In this high-stakes game of strategy and deception, you must carefully conceal your true intentions while trying to predict and counter your rivals' moves. Analyze their actions, engage in psychological warfare, and prepare for an endgame where everything can spiral out of control.<br/><br/>Stay vigilant, adapt to the shifting landscape, and remember: in this game, the unexpected is the only certainty.",
+          "LinksAlt": "Links",
+          "Links": {
+            "steam_en": "https://steamcommunity.com/workshop/filedetails/?id=2366451966"
+          }
+        },
+        {
+          "Key": "ss-ritds",
+          "DivisionKey": "qsd",
+          "DivisionFull": "Quiet Stylographs Division",
+          "ReleaseDate": "2021-07-19T00:00:00.000Z",
+          "Name": "Routing in the three-dimensional space",
+          "Image": "/images/projects/ss-ritds.png",
+          "ImageAlt": "",
+          "DescriptionShort": "Light novel. The memoir of the commodore of the mid-sized space vehicle.",
+          "DescriptionFull": "My first light novel. It's mean, obscene and military. <br/><br/>Dear Citizen,<br/>Are you eager to uncover the hidden truths of our illustrious Space Armed Forces? Have you ever wondered what it truly takes to become a combat astronaut? Are you curious about the unique features of the legendary medium-sized vessels? Have you dreamed of exposing the conspiracy behind the \"Regicide of Vertical Sector\"? Do you yearn to understand the biggest event of our century, the \"War for Survival\"?<br/><br/>Your wait is over.<br/><br/>This book answers all your questions and more. Join Commodore Lis von Kai as he reveals the secrets of our time through his gripping memoirs. Journey with the Commodore of the legendary KSV “Raven” from his humble beginnings as a green space cadet to his rise as a hero of civilized space.<br/><br/>Discover the untold stories and pivotal moments that shaped our history. If you're ready to follow in the footsteps of heroes and create your own legend, this book is your guide.<br/><br/>Join us at any K-SAF draft point and start your own legend today!",
+          "LinksAlt": "Links",
+          "Links": {
+            "amazon_ru": "https://www.amazon.com/dp/B08THQHF4C",
+            "royalroad_en": "https://www.royalroad.com/fiction/51706/routing-in-the-three-dimensional-space"
+          }
+        },
+        {
+          "Key": "ss-acroamatic-security",
+          "DivisionKey": "tld",
+          "DivisionFull": "Tamed Logic Division",
+          "ReleaseDate": "2023-09-30T00:00:00.000Z",
+          "Name": "Acroamatic Security: Notes",
+          "Image": "/images/projects/ss-acrs.png",
+          "ImageAlt": "",
+          "DescriptionShort": "A brief and enigmatic visual novel exploring an event that may or may not have occurred.",
+          "DescriptionFull": "An old friend's mysterious voice beckons you with an urgent, old-fashioned plea.<br/><br/>You find yourself in a dimly lit bar, where the faint scent of whiskey mingles with the murmur of desperate souls seeking solace from their troubles.<br/><br/>Amidst the clinking of glasses and swirling tobacco smoke, a conversation unfolds, soaked in the intoxication of liquor and laced with spinning yarns. The tale, cloaked in ambiguity and touched with a hint of exaggeration, unravels before you like a thread to be untangled. A glimpse into a world of possibilities, where whispered secrets might hold the key to something deeper, something more sinister.<br/><br/>Will you choose to delve deeper?",
+          "LinksAlt": "Links",
+          "Links": {
+            "itch_en": "https://fireplace-of-despair.itch.io/acroamatic-security-notes"
+          }
+        },
+        {
+          "Key": "qsd-10",
+          "DivisionKey": "qsd",
+          "DivisionFull": "Quiet Stylographs Division",
+          "ReleaseDate": null,
+          "Name": "Acroamatic Security: Pocket Reference",
+          "Image": "/images/projects/qsd-10.png",
+          "ImageAlt": "",
+          "DescriptionShort": "A collection of short, bizarre, and esoteric stories that never happened. Keep it in mind.",
+          "DescriptionFull": "A collection of short, bizarre, and esoteric stories that never happened. Keep it in mind.<br/><br/>Generally speaking, it's best to avoid delving into these arcane phenomena and leave such matters to the professionals. Engaging with them can cost you your sanity, your mind, or even your very self. These experiences are perilous, and only those with a firm grip on reality can fully grasp the horror they entail.<br/><br/>However, if you find yourself confronting horrors born from a madman's nightmares, keep your wits about you, stay vigilant, and don't expect any help. Should you manage to survive and resolve the situation, you might receive a job offer with a good salary, a flexible schedule, and an excellent dental plan.<br/><br/>Otherwise...<br/>I would wish you farewell, but you will have been erased from existence and had never been born.",
+          "LinksAlt": "Links",
+          "Links": {
+            "royalroad_en": "https://www.royalroad.com/fiction/51705/acroamatic-security-pocket-reference"
+          }
+        }
+      ]
+    },
+    "ja": {
+      "Name": "プロジェクト",
+      "Description": "完全に完了し、一般公開されています。",
+      "DescriptionAlt": "説明",
+      "Archive": "アーカイブ",
+      "ArchiveDescription": "割引プロジェクト",
+      "LinksAlt": "リンク",
+      "Projects": [
+        {
+          "Key": "ss-ysl",
+          "DivisionKey": "qsd",
+          "DivisionFull": "Quiet Stylographs Division",
+          "ReleaseDate": "2017-06-20T00:00:00.000Z",
+          "Name": "ヤーナム：シームズ・レジット",
+          "Image": "/images/projects/ss-ysl.png",
+          "ImageAlt": "",
+          "DescriptionShort": "ブラッドボーンビデオゲームについての短いパロディコミック。",
+          "DescriptionFull": "FromSoftwareスタジオのビデオゲーム<a href=\"https://www.fromsoftware.jp/ww/detail.html?csm=094\">Bloodborne</a>に触発された短いパロディコミックです。<br/><br/>才能ある<a href=\"https://www.pixiv.net/en/users/976281\">ミスター・ロア</a>によってイラストが描かれ、<a href=\"http://www.boku.ru/\">ミスター・チャプト</a>によって日本語に翻訳されました。<br/><br/>オリジナルゲームの宇宙的な恐怖と容赦ない世界とは異なり、このコミックは軽快なアプローチをとっています。<br/><br/>ブラッドボーンの暗くて難解な世界の日常の出来事を風刺したユーモラスなスケッチのシリーズです。<br/><br/>熟練のハンターでも、ヤーナムの新参者でも、このコミックはブラッドボーンの厳しい世界を楽しく描いています。",
+          "LinksAlt": "リンク",
+          "Links": {
+            "pixiv_en": "https://www.pixiv.net/user/976281/series/5220",
+            "pixiv_ja": "https://www.pixiv.net/user/976281/series/5187"
+          }
+        },
+        {
+          "Key": "ss-tgfmb",
+          "DivisionKey": "acd",
+          "DivisionFull": "Ashen Chronicles Division",
+          "ReleaseDate": "2019-07-02T00:00:00.000Z",
+          "Name": "フロントライン・メイド・ボット",
+          "Image": "/images/projects/ss-tgfmb.png",
+          "ImageAlt": "",
+          "DescriptionShort": "Girls’ Frontlineモバイルゲームコミュニティ向けのTelegramメッセンジャー内のチャットボット。",
+          "DescriptionFull": "Telegramメッセンジャー内の「Girls’ Frontline」モバイルゲームコミュニティ向けの効率的なチャットボットです。<br/><br/>基本設計はシンプルで簡単です。ユーザーがリクエストを送信すると即座に応答が返されます。<br/><br/>このボットは、さまざまなオンラインソースから丁寧に収集されたフラットなローカルデータベースを活用しています。専門的なアドバイス、ユニットの特性、ランキング、すべてのゲームユニットの展開と利用に関する戦略的洞察を提供します。<br/><br/>C#と補助ライブラリを使用して設計されています。",
+          "LinksAlt": "リンク",
+          "Links": {
+            "github_": "https://github.com/ChiefNoir/ss-tgfmb"
+          }
+        },
+        {
+          "Key": "ss-pbc",
+          "DivisionKey": "acd",
+          "DivisionFull": "Ashen Chronicles Division",
+          "ReleaseDate": "2019-12-31T00:00:00.000Z",
+          "Name": "個人名刺",
+          "Image": "/images/projects/ss-pbc.png",
+          "ImageAlt": "",
+          "DescriptionShort": "このウェブサイトの以前のバージョン。",
+          "DescriptionFull": "昔は個人のウェブサイトを持つことが流行していました。<br/><br/>これらのウェブサイトは、非常に創造的で魅力的なものから、まったく奇妙なものまで多岐にわたりました。人々はプロのポートフォリオから、猥雑なジョークが散りばめられた基本的な「ハローワールド」ページまで、あらゆるものを披露していました。しかし、ソーシャルネットワークの台頭により、このトレンドはほぼ消滅しました。TwitterやPixivのようなプラットフォームは、オンラインでの存在感を持つことを簡単かつ安価にしました。コンテンツ制作者にとって、観客がすでにいる場所で公開するのは理にかなっていました。<br/><br/>それでも、ここに私はいます。REST API、マイクロサービス、データベース、キャッシングシステムという非常に複雑なものを作成していますが、これは非常にシンプルなものには全く不要です。<br/><br/>本質的に、個人のウェブサイトの時代は衰退しましたが、実験し、学び、時には楽しむという動機は依然として強いままです。",
+          "LinksAlt": "リンク",
+          "Links": {
+            "github_": "https://github.com/stainless-chief/ss-pbc"
+          }
+        },
+        {
+          "Key": "ss-blacwaco",
+          "DivisionKey": "tld",
+          "DivisionFull": "Tamed Logic Division",
+          "ReleaseDate": "2021-07-17T00:00:00.000Z",
+          "Name": "Blaswaco",
+          "Image": "/images/projects/ss-blacwaco.png",
+          "ImageAlt": "",
+          "DescriptionShort": "2～6+人用のテーブルトップゲーム。主な目的は、動的かつ混沌とした世界での不可避な大災害に備えること。",
+          "DescriptionFull": "2～6+人用のテーブルトップゲームです。<br/><br/>混沌の淵へようこそ、あなたが指揮を取る場所です。グローバルな力の繊細なバランスは、予期せぬ出来事「ブラックスワン」によって崩れようとしています。しかし、予期せぬ展開が待っています：ブラックスワンは一つだけではなく、次々と現れ、それぞれがより破壊的です。<br/><br/>毎回のニュース放送は新たな災害をもたらし、すでに不安定な状況を悪化させます。この混乱の中で、対戦相手は独自の謎めいた戦略を実行しています。なぜ誰かが士気を犠牲にしてまで強大な軍隊を集めているのか？なぜ他の誰かはまるで明日がないかのように医療に資源を注ぎ込んでいるのか？彼らはどんな秘密を知っているのか、そして誰がはったりをかましているのか？<br/><br/>時間が重要です。<br/><br/>この高度な戦略と欺瞞のゲームでは、自分の真の意図を隠しながら、対戦相手の動きを予測し、対抗する必要があります。彼らの行動を分析し、心理戦を繰り広げ、すべてが制御不能になる可能性があるエンドゲームに備えましょう。<br/><br/>警戒を怠らず、変化する状況に適応し、このゲームでは予期せぬことが唯一の確実性であることを忘れないでください。",
+          "LinksAlt": "リンク",
+          "Links": {
+            "steam_en": "https://steamcommunity.com/workshop/filedetails/?id=2366451966"
+          }
+        },
+        {
+          "Key": "ss-ritds",
+          "DivisionKey": "qsd",
+          "DivisionFull": "Quiet Stylographs Division",
+          "ReleaseDate": "2021-07-19T00:00:00.000Z",
+          "Name": "三次元空間のルーティング",
+          "Image": "/images/projects/ss-ritds.png",
+          "ImageAlt": "",
+          "DescriptionShort": "ライトノベル。中型宇宙船の提督の回想録。",
+          "DescriptionFull": "私の初めてのライトノベルです。辛辣で卑猥で軍事的です。<br/><br/>親愛なる市民の皆様、<br/>我々の輝かしい宇宙軍の隠された真実を明らかにしたいと思いませんか？戦闘宇宙飛行士になるために必要なことを本当に知りたくありませんか？伝説の中型船のユニークな特徴について好奇心はありませんか？「垂直セクターの王殺し」の陰謀を暴くことを夢見たことはありませんか？我々の世紀の最大の出来事、「生存のための戦争」を理解したいと思いませんか？<br/><br/>お待たせしました。<br/><br/>この本は、すべての疑問に答えます。伝説的なKSV“レイヴン”の提督リス・フォン・カイが、青二才の宇宙士官候補生から文明化された宇宙の英雄に成長するまでの回顧録を通じて、私たちの時代の秘密を明かします。<br/><br/>私たちの歴史を形作った知られざる物語や重要な瞬間を発見してください。英雄たちの足跡をたどり、自分の伝説を作り上げる準備ができたら、この本がガイドとなります。<br/><br/>どのK-SAF募集ポイントでも参加し、自分自身の伝説を始めてください！",
+          "LinksAlt": "リンク",
+          "Links": {
+            "amazon_ru": "https://www.amazon.com/dp/B08THQHF4C",
+            "royalroad_en": "https://www.royalroad.com/fiction/51706/routing-in-the-three-dimensional-space"
+          }
+        },
+        {
+          "Key": "ss-acroamatic-security",
+          "DivisionKey": "tld",
+          "DivisionFull": "Tamed Logic Division",
+          "ReleaseDate": "2023-09-30T00:00:00.000Z",
+          "Name": "アクロアマティックの公安：ノート",
+          "Image": "/images/projects/ss-acrs.png",
+          "ImageAlt": "",
+          "DescriptionShort": "実際に起こったかもしれない出来事を探る短くて謎めいたビジュアルノベル。",
+          "DescriptionFull": "古い友人の神秘的な声が、緊急かつ昔ながらの頼みであなたを呼び寄せます。<br/><br/>薄暗いバーにいると、ウイスキーのかすかな香りが漂い、悩みを抱えた人々のささやき声が聞こえてきます。<br/><br/>グラスの音やタバコの煙が渦巻く中、会話が展開し、アルコールに浸りつつ誇張された物語が広がります。この物語は曖昧さに包まれ、より深い何か、より不吉なものへの鍵を握っているかもしれない囁かれた秘密が含まれています。<br/><br/>あなたはさらに深く掘り下げることを選びますか？",
+          "LinksAlt": "リンク",
+          "Links": {
+            "itch_en": "https://fireplace-of-despair.itch.io/acroamatic-security-notes"
+          }
+        },
+        {
+          "Key": "qsd-10",
+          "DivisionKey": "qsd",
+          "DivisionFull": "Quiet Stylographs Division",
+          "ReleaseDate": null,
+          "Name": "アクロアマティックの公安：ポケットリファレンス",
+          "Image": "/images/projects/qsd-10.png",
+          "ImageAlt": "",
+          "DescriptionShort": "実際には起こらなかった短くて奇妙で難解な物語のコレクション。覚えておいてください。",
+          "DescriptionFull": "実際には起こらなかった短くて奇妙で難解な物語のコレクション。覚えておいてください。<br/><br/>一般的に言って、これらの神秘的な現象に深入りするのは避けた方が良いです。このような問題はプロに任せるのが最善です。関わることで、正気を失ったり、精神を失ったり、さらには自己そのものを失ったりする危険があります。これらの経験は危険であり、現実をしっかりと把握している人だけが、その恐怖を完全に理解することができます。<br/><br/>しかし、狂人の悪夢から生まれた恐怖に直面することになった場合は、冷静さを保ち、警戒を怠らず、助けを期待しないでください。もし生き延びて状況を解決することができれば、良い給与、柔軟なスケジュール、優れた歯科プランがある仕事のオファーを受けるかもしれません。<br/><br/>さもなくば…<br/>さようならを言うことはできませんが、あなたは存在から抹消され、生まれていなかったことになるでしょう。",
+          "LinksAlt": "リンク",
+          "Links": {
+            "royalroad_en": "https://www.royalroad.com/fiction/51705/acroamatic-security-pocket-reference"
+          }
+        }
+      ]
+    }
+  }
+}

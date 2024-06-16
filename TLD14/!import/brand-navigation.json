@@ -1,0 +1,32 @@
+{
+  "Translations": {
+    "en": [
+      {
+        "Name": "Home",
+        "Page": "/Index"
+      },
+      {
+        "Name": "Archive",
+        "Page": "/Archive"
+      },
+      {
+        "Name": "Press",
+        "Page": "/Press"
+      }
+    ],
+    "ja": [
+      {
+        "Name": "ホーム",
+        "Page": "/Index"
+      },
+      {
+        "Name": "歴史資",
+        "Page": "/Archive"
+      },
+      {
+        "Name": "ニュース",
+        "Page": "/Press"
+      }
+    ]
+  }
+}

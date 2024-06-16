@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <Title>TLD14</Title>
+    <Version>1.0.0</Version>
+    <Authors>Fireplace of Despair</Authors>
+    <PackageProjectUrl>https://github.com/Fireplace-of-Despair/tld-14</PackageProjectUrl>
+    <Company>Fireplace of Despair</Company>
+    <Product>TLD14</Product>
+    <Copyright>Fireplace of Despair</Copyright>
+    <RepositoryUrl>https://github.com/Fireplace-of-Despair/tld-14.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <EnforceCodeStyleInBuild>True</EnforceCodeStyleInBuild>
+  </PropertyGroup>
+
+</Project>

@@ -1,0 +1,14 @@
+﻿@using TLD14.Utils
+@model Archive.ArchiveModel
+
+<div class="showcase-container">
+    <h1 id="index-archive">@Model.Properties!.Archive</h1>
+    <div class="showcase-container-slogan"> @Model.Properties.ArchiveDescription</div>
+
+    <div class="projects-container">
+        @foreach (var item in Model.Properties.Projects.OrderByDescending(x => x.ReleaseDate))
+        {
+            @await Component.InvokeAsync(nameof(ProjectCard), new { project = item })
+        }
+    </div>
+</div>

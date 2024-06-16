@@ -1,0 +1,120 @@
+﻿.showcase-container {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 15px;
+    margin-top: 15px;
+    background-color: var(--brand-color-first);
+    padding-bottom: 20px;
+}
+
+    .showcase-container h1 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        color: var(--brand-color-third);
+        text-align: center;
+    }
+
+::deep .showcase-container-slogan {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: var(--brand-color-third);
+    text-align: center;
+    font-style: italic;
+}
+
+
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+
+.card {
+    background-color: var(--color-background);
+    color: var(--brand-color-third);
+    border: 1px solid var(--brand-color-third);
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 350px;
+    transition: all 0.3s ease;
+}
+
+::deep .card-image-container {
+    position: relative;
+    width: 50%;
+}
+
+::deep .card-image {
+    object-fit: cover;
+    width: 350px;
+    height: 150px;
+    display: block;
+    filter: grayscale(100%) contrast(130%);
+    transition: all 0.8s ease 0s;
+}
+
+    ::deep .card-image:hover {
+        filter: grayscale(0) contrast(100%);
+    }
+
+::deep .project-image-overlay-date {
+    position: absolute;
+    top: -1px;
+    right: -176px;
+    background-color: var(--color-background);
+    color: var(--brand-color-third);
+    border: 1px solid var(--brand-color-third);
+    width: 115px;
+    padding: 5px;
+    font-weight: 900;
+    text-align: center;
+}
+
+::deep .card-title {
+    text-align: center;
+    text-decoration: underline;
+    color: var(--brand-color-third);
+    text-decoration-color: var(--brand-color-third);
+    font-size: 25px;
+    height: 70px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+    ::deep .card-title:hover {
+        color: var(--brand-color-second);
+        text-decoration-color: var(--brand-color-second);
+    }
+
+::deep .card-description {
+    height: 110px;
+    margin-top: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 10px;
+}
+
+::deep .card-buttons-container {
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 35px;
+    margin-top: 35px;
+    gap: 10px;
+}
+
+::deep .card-button {
+    object-fit: cover;
+    width: 50px;
+    height: 50px;
+    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(7484%) hue-rotate(203deg) brightness(103%) contrast(101%);
+}
+
+    ::deep .card-button:hover {
+        filter: brightness(0) saturate(100%) invert(40%) sepia(56%) saturate(5293%) hue-rotate(342deg) brightness(94%) contrast(93%);
+    }

@@ -1,0 +1,46 @@
+{
+  "Translations": {
+    "en": {
+      "Title": "SNS",
+      "Description": "Social Network Presence",
+      "Links": [
+        {
+          "Code": "github",
+          "Url": "http://github.com",
+          "UrlAlt": "Github"
+        },
+        {
+          "Code": "linkedin",
+          "Url": "https://www.linkedin.com/in/stshevtsov/",
+          "UrlAlt": "LinkedIn"
+        },
+        {
+          "Code": "youtube",
+          "Url": "https://www.youtube.com/@ChiefNoir",
+          "UrlAlt": "YouTube"
+        }
+      ]
+    },
+    "ja": {
+      "Title": "SNS",
+      "Description": "SNSのプレゼンス",
+      "Links": [
+        {
+          "Code": "github",
+          "Url": "http://github.com",
+          "UrlAlt": "Github"
+        },
+        {
+          "Code": "linkedin",
+          "Url": "https://www.linkedin.com/in/stshevtsov/",
+          "UrlAlt": "LinkedIn"
+        },
+        {
+          "Code": "youtube",
+          "Url": "https://www.youtube.com/@ChiefNoir",
+          "UrlAlt": "YouTube"
+        }
+      ]
+    }
+  }
+}

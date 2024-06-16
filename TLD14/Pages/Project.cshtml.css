@@ -1,0 +1,96 @@
+﻿.page-project-container {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 15px;
+    text-align: center;
+    background-color: var(--brand-color-first);
+    color: var(--brand-color-third);
+}
+
+.page-project-content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.page-project-description {
+    flex: 1 1 0;
+    word-wrap: break-word;
+    min-width: 300px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+::deep .page-project-description a {
+    color: var(--brand-color-third);
+}
+::deep .page-project-description a:hover {
+    color: var(--brand-color-second);
+}
+
+.page-project-content-poster-container {
+    position: relative;
+    background-color: var(--color-background);
+    color: var(--brand-color-third);
+    border: 1px solid var(--brand-color-third);
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    height: 150px;
+}
+::deep .project-poster {
+    object-fit: cover;
+    width: 350px;
+    height: 150px;
+    display: block;
+    filter: grayscale(100%) contrast(130%);
+    transition: all 0.8s ease 0s;
+}
+::deep .project-poster:hover {
+    filter: grayscale(0) contrast(100%);
+}
+
+::deep .project-poster-division-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--color-background);
+    color: var(--brand-color-third);
+    border: 1px solid var(--brand-color-third);
+    width: 70px;
+    padding: 5px;
+    font-weight: 900;
+    text-align: center;
+}
+::deep .project-poster-date-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: var(--color-background);
+    color: var(--brand-color-third);
+    border: 1px solid var(--brand-color-third);
+    width: 100px;
+    padding: 5px;
+    font-weight: 900;
+    text-align: center;
+}
+
+::deep .page-project-buttons-container {
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 35px;
+    margin-top: 35px;
+    gap: 10px;
+}
+::deep .page-project-button {
+    object-fit: cover;
+    width: 50px;
+    height: 50px;
+    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(7484%) hue-rotate(203deg) brightness(103%) contrast(101%);
+}
+::deep .page-project-button:hover {
+    filter: brightness(0) saturate(100%) invert(40%) sepia(56%) saturate(5293%) hue-rotate(342deg) brightness(94%) contrast(93%);
+}

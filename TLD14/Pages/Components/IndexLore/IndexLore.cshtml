@@ -1,0 +1,13 @@
+﻿@model IndexLore.IndexLoreModel
+
+<div id="@Model.Key" class="lore-container">
+    <h1>@Model.Properties!.Name</h1>
+    <div class="lore-content">
+        <div class="lore-content-image">
+            <img src="@Model.Properties.Image" alt="@Model.Properties.ImageAlt">
+        </div>
+        <div class="lore-content-text">
+            @Html.Raw(@Model.Properties.Content)
+        </div>
+    </div>
+</div>

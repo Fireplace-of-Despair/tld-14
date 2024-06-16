@@ -1,0 +1,48 @@
+{
+  "Translations": {
+    "en": [
+      {
+        "Name": "Introduction",
+        "Anchor": "#introduction"
+      },
+      {
+        "Name": "Lore",
+        "Anchor": "#lore"
+      },
+      {
+        "Name": "Projects",
+        "Anchor": "#projects"
+      },
+      {
+        "Name": "SNS",
+        "Anchor": "#media-presence"
+      },
+      {
+        "Name": "Contact",
+        "Anchor": "#contact"
+      }
+    ],
+    "ja": [
+      {
+        "Name": "序論",
+        "Anchor": "#introduction"
+      },
+      {
+        "Name": "伝承",
+        "Anchor": "#lore"
+      },
+      {
+        "Name": "プロジェクト",
+        "Anchor": "#projects"
+      },
+      {
+        "Name": "SNS",
+        "Anchor": "#media-presence"
+      },
+      {
+        "Name": "お問い合わせ",
+        "Anchor": "#contact"
+      }
+    ]
+  }
+}

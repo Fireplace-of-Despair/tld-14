@@ -1,0 +1,15 @@
+﻿@using TLD14.Utils
+@using TLD14.Pages.Components.ProjectCard
+@model IndexProjects.IndexProjectsModel
+
+<div id="@Model.Key" class="projects-container">
+    <h1>@Model.Properties!.Name</h1>
+    <div class="projects-slogan"> @Model.Properties.Description </div>
+    
+    <div class="projects-content">
+        @foreach (var item in Model.Properties.Projects.OrderByDescending(x => x.ReleaseDate))
+        {
+            @await Component.InvokeAsync(nameof(ProjectCard), new { project = item })
+        }
+    </div>
+</div>

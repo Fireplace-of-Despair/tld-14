@@ -1,0 +1,26 @@
+﻿@page
+@using Microsoft.AspNetCore.Localization
+@using TLD14.Pages.Components.Contact
+@using TLD14.Pages.Components.Archive
+@using TLD14.Pages.Components.IndexIntroduction
+@using TLD14.Pages.Components.IndexLore
+@using TLD14.Pages.Components.IndexNavigation
+@using TLD14.Pages.Components.IndexProjects
+@using TLD14.Pages.Components.MediaPresence
+@model IndexModel
+
+@{
+    ViewData["Title"] = "Fireplace of Despair";
+}
+
+@await Component.InvokeAsync(nameof(IndexNavigation))
+
+@await Component.InvokeAsync(nameof(IndexIntroduction))
+
+@await Component.InvokeAsync(nameof(IndexLore))
+
+@await Component.InvokeAsync(nameof(IndexProjects))
+
+@await Component.InvokeAsync(nameof(MediaPresence))
+
+@await Component.InvokeAsync(nameof(Contact))

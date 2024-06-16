@@ -1,0 +1,16 @@
+{
+  "Translations": {
+    "en": {
+      "Name": "Lore",
+      "Image": "/images/chief.jpg",
+      "ImageAlt": "In this photo, you can see Stan, also known as the Chief. He stands there, a handsome man in a black suit, white shirt, and red tie, looking straight at you.",
+      "Content": "The lore and history of the Fireplace of Despair had slipped away into the shadows of time, like smoke from a half-forgotten cigarette. The Fireplace of Despair had always been here, lurking in the corners, barely noticed by most.<br/><br/>But behind it all, there is <i>one man</i>, a constant presence from the beginning to the very end.<br/><br/>A seasoned individual with a mind as sharp as his tailored suits, he'd seen it all. Nothing escaped his notice. At the head of the Fireplace of Despair stands a figure cloaked in mystery, known as <i>Shevtsov Stan</i>. Or simply, the <b>Chief</b>. A ghost from a distant land, his past shrouded in layers of intrigue and rumor. To some, he is a myth, a legend whispered among the people.<br/><br/>Yet beneath the cloak of enigma, there is a man with a soft smile, a soul steeped in shadows, and too many skills for one person alone. The Chief's true motives remain hidden in the murk, his loyalty a secret he keeps close to the chest. To those who seek his help, he makes no promises but always delivers results."
+    },
+    "ja": {
+      "Name": "伝承",
+      "Image": "/images/chief.jpg",
+      "ImageAlt": "この写真には、主任としても知られるスタンが写っています。黒いスーツに白いシャツ、赤いネクタイを締めたハンサムな男が、こちらをじっと見つめて立っています",
+      "Content": "「Fireplace of Despair」の伝説と歴史は、半ば忘れられたタバコの煙のように、時の影に消え去った。「Fireplace of Despair」はいつもそこにあったが、ほとんどの人に気づかれずに隅々に潜んでいた。<br/><br/>しかし、その背後には、始まりから終わりまでずっと存在し続ける一人の男がいる。<br/><br/>その男は、仕立ての良いスーツのように鋭い頭脳を持つ老練な人物で、すべてを見てきた。彼の目を逃れるものは何もない。「Fireplace of Despair」の頂点には、謎に包まれたシェフツォフ・スタン、または単に「主任」として知られる人物が立っている。遠い土地からの亡霊であり、その過去は多くの陰謀と噂に包まれている。ある者にとっては、彼は神話であり、人々の間でささやかれる伝説である。<br/><br/>しかし、謎のベールの下には、優しい微笑みをたたえた男がいて、影に染まった魂と、一人の人間には多すぎる才能を持っている。主任の真の目的は暗闇の中に隠されており、その忠誠心は胸の内に秘められている。助けを求める者たちには、彼は約束をしないが、常に結果をもたらす。"
+    }
+  }
+}

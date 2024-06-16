@@ -1,0 +1,19 @@
+﻿@page "{code}"
+@using TLD14.Utils
+@using TLD14.Pages.Components.ProjectCard
+
+@model ProjectModel
+@{
+    ViewData["Title"] = $"Fireplace of Despair / {@Model!.Project!.Name}";
+}
+<div class="page-project-container">
+    <h2>@Model.Project.Name</h2>
+    <div class="page-project-content">
+        @await Component.InvokeAsync(nameof(ProjectCard), new { project = Model.Project })
+
+        <div class="page-project-description">
+            @Html.Raw(Model.Project.DescriptionFull)
+        </div>
+    </div>
+</div>
+<br/>

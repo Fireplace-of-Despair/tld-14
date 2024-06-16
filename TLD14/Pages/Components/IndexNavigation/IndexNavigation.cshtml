@@ -1,0 +1,10 @@
+﻿@model IndexNavigation.IndexNavigationModel
+
+<nav class="index-navigation-container" role="navigation">
+    @foreach (var item in Model.Properties ?? [])
+    {
+        <a class="index-navigation" href="@item.Anchor">
+            @item.Name
+        </a>
+    }
+</nav>

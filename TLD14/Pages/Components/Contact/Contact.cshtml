@@ -1,0 +1,18 @@
+﻿@using TLD14.Utils
+@model Contact.ContactModel
+
+<div id="@Model.Key" class="contact-container">
+    <h1>@Model.Properties!.Title</h1>
+    <div class="contact-slogan">
+       @Html.Raw(@Model.Properties.Description)
+    </div>
+
+    <div class="contact-content">
+        @foreach (var link in @Model.Properties.Contacts)
+        {
+            <a href="@link.Value">
+                <img class="contact-button" src="@IconHelper.GetIcon(@link.Key)" />
+            </a>
+        }
+    </div>
+</div>

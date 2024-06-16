@@ -1,0 +1,59 @@
+﻿@using TLD14.Pages.Components.BrandFooter
+@using TLD14.Pages.Components.BrandHeader
+@using TLD14.Pages.Components.BrandNavigation
+@using TLD14.Pages.Components.CommonScrollToTop
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+
+        <!-- Meta Tags -->
+        <meta name="author" content="Stanislav &ldquo;Chief&rdquo; Shevtsov">
+        <meta name="designer" content="Stanislav &ldquo;Chief&rdquo; Shevtsov">
+        <meta name="publisher" content="Stanislav &ldquo;Chief&rdquo; Shevtsov">
+        <meta name="subtitle" content="Suffering builds">
+         
+        <!-- Search Engine Optimization Meta Tags -->
+        <meta name="description" content="Stanislav &ldquo;Chief&rdquo; Shevtsov personal website.">
+        <meta name="keywords" content="Stan, Chief, Izumo, Fireplace of Despair">
+        <meta name="copyright" content="Fireplace of Despair">
+        <meta name="revisit-after" content="7 days">
+        <meta name="distribution" content="web">
+        <meta name="robots" content="index,follow">
+        <meta name="coverage" content='Worldwide'>
+        <meta name="distribution" content="Global">
+        <meta name="rating" content="General">
+
+        <!-- mobile meta tags -->
+        <meta name="format-detection" content="telephone=yes">
+        <meta name="HandheldFriendly" content="true">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Title -->
+        <title>@ViewData["Title"]</title>
+
+        <!-- System -->
+        <link rel="stylesheet" href="~/css/brand.css" asp-append-version="true" />
+        <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+        <link rel="stylesheet" href="~/TLD14.styles.css" asp-append-version="true" />
+    </head>
+    <body>
+        <header>
+            @await Component.InvokeAsync(nameof(BrandHeader))
+            @await Component.InvokeAsync(nameof(BrandNavigation))
+        </header>
+
+        <div class="body-container">
+            <main role="main" class="body-content">
+                @RenderBody()
+            </main>
+        </div>
+
+        @await Component.InvokeAsync(nameof(CommonScrollToTop))
+        @await Component.InvokeAsync(nameof(BrandFooter))
+
+        @await RenderSectionAsync("Scripts", required: false)
+        <script src="~/js/site.js" asp-append-version="true"></script>
+    </body>
+</html>

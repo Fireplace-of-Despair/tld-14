@@ -1,0 +1,42 @@
+﻿.introduction-container {
+    margin-top: 0;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--brand-color-first);
+    color: var(--brand-color-third);
+    flex-wrap: wrap-reverse;
+}
+
+::deep .introduction-content-text {
+    flex: 1 0 0;
+    padding: 20px;
+    text-align: center;
+}
+
+::deep .introduction-content {
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+::deep .introduction-content-image {
+    flex: 1 0 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+::deep .introduction-content-image img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 768px) {
+    .introduction-content-text, .introduction-content-image {
+        flex: 100%;
+    }
+}

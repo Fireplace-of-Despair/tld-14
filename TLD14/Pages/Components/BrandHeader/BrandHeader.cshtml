@@ -1,0 +1,11 @@
+﻿@model BrandHeader.BrandHeaderModel
+
+<div class="brand-header-container">
+    <a class="brand-header-link" asp-page="/Index">
+        <h1>@Model.Properties?.Name</h1>
+    </a>
+    
+    <div class="brand-header-slogan">
+        @Model.Properties?.Slogan
+    </div>
+</div>

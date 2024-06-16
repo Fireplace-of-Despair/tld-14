@@ -1,0 +1,16 @@
+{
+  "Translations": {
+    "en": {
+      "Name": "Introduction",
+      "Image": "/images/logo.png",
+      "ImageAlt": "/images/logo.png",
+      "Content": "The world’s a twisted labyrinth, choked with secrets, tangled in wires, and scarred by holy wars and myriad perspectives.<br/>One soul can’t possibly grasp or conquer it all at once.<br/><br/>But we gave it a shot. Just a taste.<br/><br/><br/>There’s a peculiar allure in the universal Jack-of-all-trades.<br/>That's our edge in this twisted world.<br/><br/>Yeah, we dabble in a little bit of everything.<br/><br/>But make no mistake, it’s a little bit of <i>everything</i>."
+    },
+    "ja": {
+      "Name": "序論",
+      "Image": "/images/logo.png",
+      "ImageAlt": "/images/logo.png",
+      "Content": "世界はねじれた迷宮、秘密に満ち、絡み合った電線に覆われ、聖戦と無数の視点に散らばっている。<br/>一つの魂では到底すべてを把握したり征服したりすることはできない。<br/><br/>だが、「Fireplace of Despair」は挑戦した。<br/>ほんの一口。<br/><br/>万能の才には独特の魅力がある。<br/>それが、このねじれた世界での我々の強みだ。<br/><br/>そう、我々はあらゆるものに手を出す。<br/>だが、勘違いしないでほしい。それはあらゆるものに手を出すということだ。"
+    }
+  }
+}

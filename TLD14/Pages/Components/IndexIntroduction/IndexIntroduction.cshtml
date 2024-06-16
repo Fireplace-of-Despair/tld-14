@@ -1,0 +1,13 @@
+﻿@model IndexIntroduction.IndexIntroductionModel
+
+<div id="@Model.Key" class="introduction-container">
+    <h1>@Model.Properties!.Name</h1>
+    <div class="introduction-content">
+        <div class="introduction-content-text">
+            @Html.Raw(@Model.Properties.Content)
+        </div>
+        <div class="introduction-content-image">
+            <img src="@Model.Properties.Image" alt="@Model.Properties.ImageAlt">
+        </div>
+    </div>
+</div>

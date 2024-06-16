@@ -1,0 +1,37 @@
+﻿.contact-container {
+    margin-top: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--brand-color-first);
+    color: var(--brand-color-third);
+    flex-wrap: wrap-reverse;
+    text-align: center;
+}
+
+.contact-content {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10px;
+    text-align: center;
+    background-color: var(--brand-color-first);
+    color: var(--brand-color-third);
+    padding-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+::deep .contact-button {
+    object-fit: cover;
+    width: 50px;
+    height: 50px;
+    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(7484%) hue-rotate(203deg) brightness(103%) contrast(101%);
+}
+
+::deep .contact-button:hover {
+    filter: brightness(0) saturate(100%) invert(40%) sepia(56%) saturate(5293%) hue-rotate(342deg) brightness(94%) contrast(93%);
+}

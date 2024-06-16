@@ -1,0 +1,18 @@
+{
+  "Translations": {
+    "en": {
+      "Title": "Contact Chief",
+      "Description": "For those who dare.",
+      "Contacts": {
+        "telegram": "https://t.me/Stainless_Chief"
+      }
+    },
+    "ja": {
+      "Title": "お問い合わせ",
+      "Description": "私たちに連絡する勇気のある人だけが対象です。",
+      "Contacts": {
+        "telegram": "https://t.me/Stainless_Chief"
+      }
+    }
+  }
+}

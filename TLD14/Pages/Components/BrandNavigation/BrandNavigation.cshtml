@@ -1,0 +1,38 @@
+﻿@model BrandNavigation.BrandNavigationModel
+
+<nav class="brand-navigation-container" role="navigation">
+    @foreach (var item in Model.Properties!)
+    {
+        var className =
+            ViewContext.RouteData.Values["page"]!.ToString() == item.Page 
+                ? "brand-navigation-active"
+                : "brand-navigation";
+
+        <a class="@className"
+           asp-page="@item.Page.ToLowerInvariant()">
+            @item.Name
+        </a>
+    }
+
+        <select id="culture-options" class="brand-navigation-active">
+            @foreach (var culture in Model.CultureSwitcherModel!.SupportedCultures)
+            {
+                <option value="@culture.Name" selected="@(Model.CultureSwitcherModel!.CurrentUICulture!.Name == culture.Name)">@culture.DisplayName</option>
+            }
+        </select>
+
+</nav>
+
+<script>
+    var segments = location.pathname.split('/');
+    var el = document.getElementById("culture-options");
+    el.addEventListener("change", () => {
+        var culture = el.options[el.selectedIndex].value;
+        if (segments.length > 2) {
+            segments[1] = culture;
+            location.href = segments.join('/');
+        } else {
+            location.href = '/' + culture + location.pathname;
+        }
+    });
+</script>

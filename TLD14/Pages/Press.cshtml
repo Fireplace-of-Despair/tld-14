@@ -1,0 +1,8 @@
+﻿@page
+@using TLD14.Pages.Components.PressPresence
+@model PressModel
+@{
+    ViewData["Title"] = "Fireplace of Despair / Press";
+}
+
+@await Component.InvokeAsync(nameof(PressPresence))

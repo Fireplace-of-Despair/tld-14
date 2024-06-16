@@ -1,0 +1,72 @@
+{
+  "Translations": {
+    "en": {
+      "Title": "Press Presence",
+      "Description": "Appearances on the news",
+      "Articles": [
+        {
+          "Title": "NHK",
+          "Description": "“IT人材を出雲に” 東欧・ロシアに熱視線",
+          "Image": "/images/press-presence/nhk-001.png",
+          "Date": "2023-06-21",
+          "Url": "https://www3.nhk.or.jp/news/html/20230621/k10014103831000.html"
+        },
+        {
+          "Title": "NHK",
+          "Description": "Aspiring Japan tech hub targets Eastern European talent",
+          "Image": "/images/press-presence/nhk-000.png",
+          "Date": "2023-07-18",
+          "Url": "https://www3.nhk.or.jp/nhkworld/en/news/backstories/2589/"
+        },
+        {
+          "Title": "Nikkei",
+          "Description": "島根・出雲市に東欧IT人材集う　官民が紹介会社",
+          "Image": "/images/press-presence/nikkei-000.png",
+          "Date": "2023-12-21",
+          "Url": "https://www.nikkei.com/article/DGXZQOCC075DE0X01C23A2000000/"
+        },
+        {
+          "Title": "hello, yaponiya!",
+          "Description": "Карьерный вебинар. Как разработчику найти работу в Японии и релоцироваться.",
+          "Image": "/images/press-presence/hello-yaponiya-000.png",
+          "Date": "2024-03-13",
+          "Url": "https://www.youtube.com/watch?v=iBueUh9NSjA"
+        }
+      ]
+    },
+    "ja": {
+      "Title": "ニュースの存在感",
+      "Description": "ニュース出演",
+      "Articles": [
+        {
+          "Title": "NHK",
+          "Description": "“IT人材を出雲に” 東欧・ロシアに熱視線",
+          "Image": "/images/press-presence/nhk-001.png",
+          "Date": "2023-06-21",
+          "Url": "https://www3.nhk.or.jp/news/html/20230621/k10014103831000.html"
+        },
+        {
+          "Title": "NHK",
+          "Description": "Aspiring Japan tech hub targets Eastern European talent",
+          "Image": "/images/press-presence/nhk-000.png",
+          "Date": "2023-07-18",
+          "Url": "https://www3.nhk.or.jp/nhkworld/en/news/backstories/2589/"
+        },
+        {
+          "Title": "Nikkei",
+          "Description": "島根・出雲市に東欧IT人材集う　官民が紹介会社",
+          "Image": "/images/press-presence/nikkei-000.png",
+          "Date": "2023-12-21",
+          "Url": "https://www.nikkei.com/article/DGXZQOCC075DE0X01C23A2000000/"
+        },
+        {
+          "Title": "hello, yaponiya!",
+          "Description": "Карьерный вебинар. Как разработчику найти работу в Японии и релоцироваться.",
+          "Image": "/images/press-presence/hello-yaponiya-000.png",
+          "Date": "2024-03-13",
+          "Url": "https://www.youtube.com/watch?v=iBueUh9NSjA"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,29 @@
+﻿@using TLD14.Utils
+@model PressPresence.PressPresenceModel
+
+<div class="showcase-container">
+    <h1>@Model.Properties!.Title</h1>
+    <div class="showcase-container-slogan">
+       @Html.Raw(@Model.Properties.Description)
+    </div>
+
+    <div class="projects-container">
+        @foreach (var item in Model.Properties.Articles)
+        {
+            <div class="card">
+                <div class="card-image-container">
+                    <a href="@item.Url">
+                        <img class="card-image" src="@item.Image" />
+                    </a>
+                    <div class="project-image-overlay-date">
+                        @item.Date.ToString("yyyy/MM/dd")
+                    </div>
+                </div>
+                <a href="@item.Url" class="card-title">
+                    <b>@item.Title</b>
+                </a>
+                <div class="card-description">@item.Description</div>
+            </div>
+        }
+    </div>
+</div>

@@ -1,0 +1,19 @@
+﻿@using TLD14.Utils
+@model MediaPresence.MediaPresenceModel
+
+<div id="@Model.Key" class="link-container">
+    <h1>@Model.Properties!.Title</h1>
+    <div class="link-slogan">
+       @Html.Raw(@Model.Properties.Description)
+    </div>
+
+    <div class="link-url-container">
+        @foreach (var link in @Model.Properties.Links)
+        {
+            <a href="@link.Url" aria-label="@link.UrlAlt">
+                <img class="link-url" alt="@link.UrlAlt"
+                     src="@IconHelper.GetIcon(@link.Code)" />
+            </a>
+        }
+    </div>
+</div>
