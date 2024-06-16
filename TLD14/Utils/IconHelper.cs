@@ -11,7 +11,7 @@ public static class IconHelper
         var language = key.Split("_").LastOrDefault();
         if (string.IsNullOrEmpty(language))
         { 
-            return defaultLanguage;
+            return defaultLanguage.ToUpper();
         }
 
         return language.ToUpper();
