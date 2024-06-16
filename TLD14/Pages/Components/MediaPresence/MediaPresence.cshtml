@@ -1,7 +1,8 @@
 ﻿@using TLD14.Utils
+@using TLD14.Localizations
 @model MediaPresence.MediaPresenceModel
 
-<div id="@Model.Key" class="link-container">
+<div id="@Model.Key" class="link-container" lang="@Context.GetRequestLanguage()">
     <h1>@Model.Properties!.Title</h1>
     <div class="link-slogan">
        @Html.Raw(@Model.Properties.Description)

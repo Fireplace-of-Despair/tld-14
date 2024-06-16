@@ -1,7 +1,8 @@
 ﻿@using TLD14.Utils
+@using TLD14.Localizations
 @model Models.Project
 
-<div id="@Model.Key" class="project">
+<div id="@Model.Key" class="project" lang="@Context.GetRequestLanguage()">
     <div class="project-image-container">
         <a asp-page="/Project" asp-route-code="@Model.Key">
             <img class="project-image" src="@Model.Image" alt="@Model.ImageAlt" />

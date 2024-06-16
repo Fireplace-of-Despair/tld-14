@@ -1,12 +1,13 @@
 ﻿@page "{code}"
 @using TLD14.Utils
+@using TLD14.Localizations
 @using TLD14.Pages.Components.ProjectCard
 
 @model ProjectModel
 @{
     ViewData["Title"] = $"Fireplace of Despair / {@Model!.Project!.Name}";
 }
-<div class="page-project-container">
+<div lang="@HttpContext.GetRequestLanguage()" class="page-project-container">
     <h2>@Model.Project.Name</h2>
     <div class="page-project-content">
         @await Component.InvokeAsync(nameof(ProjectCard), new { project = Model.Project })

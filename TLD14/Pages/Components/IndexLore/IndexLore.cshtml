@@ -1,6 +1,7 @@
-﻿@model IndexLore.IndexLoreModel
+﻿@using TLD14.Localizations
+@model IndexLore.IndexLoreModel
 
-<div id="@Model.Key" class="lore-container">
+<div id="@Model.Key" class="lore-container" lang="@Context.GetRequestLanguage()">
     <h1>@Model.Properties!.Name</h1>
     <div class="lore-content">
         <div class="lore-content-image">

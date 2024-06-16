@@ -1,6 +1,7 @@
-﻿@model IndexIntroduction.IndexIntroductionModel
+﻿@using TLD14.Localizations
+@model IndexIntroduction.IndexIntroductionModel
 
-<div id="@Model.Key" class="introduction-container">
+<div id="@Model.Key" class="introduction-container" lang="@Context.GetRequestLanguage()">
     <h1>@Model.Properties!.Name</h1>
     <div class="introduction-content">
         <div class="introduction-content-text">

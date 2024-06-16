@@ -1,7 +1,8 @@
 ﻿@using TLD14.Utils
+@using TLD14.Localizations
 @model Contact.ContactModel
 
-<div id="@Model.Key" class="contact-container">
+<div id="@Model.Key" class="contact-container" lang="@Context.GetRequestLanguage()">
     <h1>@Model.Properties!.Title</h1>
     <div class="contact-slogan">
        @Html.Raw(@Model.Properties.Description)
