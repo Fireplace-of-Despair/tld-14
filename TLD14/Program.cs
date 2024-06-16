@@ -12,7 +12,7 @@ public static class Program
         builder.ConfigureLocalization();
 
         var app = builder.Build();
-
+        await app.ConfigureStorage();
         // Configure the HTTP request pipeline.
         if (!app.Environment.IsDevelopment())
         {

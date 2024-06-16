@@ -1,4 +1,4 @@
-﻿using StackExchange.Redis;
+﻿using Microsoft.Extensions.Caching.Memory;
 using TLD14.Infrastructure;
 using TLD14.Pages.Components.BrandFooter;
 using TLD14.Pages.Components.BrandHeader;
@@ -15,21 +15,23 @@ namespace TLD14.Composition;
 
 public static class DependencyInjection
 {
-    private const string Redis = "Redis";
-
-    public static async Task<WebApplicationBuilder> ConfigureServices(this WebApplicationBuilder builder)
+    public static Task<WebApplicationBuilder> ConfigureServices(this WebApplicationBuilder builder)
     {
-        var options = ConfigurationOptions.Parse(builder.Configuration.GetConnectionString(Redis)!);
-        
-        builder.Services.AddSingleton<IConnectionMultiplexer>(ConnectionMultiplexer.Connect(options));
-        builder.Services.AddSingleton<IStorage, StorageRedis>();
+        builder.Services.AddSingleton<IStorage, InMemoryStorage>();
+        builder.Services.AddMemoryCache();
+        builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 
-        //------------------
-        var storage = new StorageRedis(ConnectionMultiplexer.Connect(options));
+        return Task.FromResult(builder);
+    }
+
+    public static async Task<WebApplication> ConfigureStorage(this WebApplication app)
+    {
+        var cache = app.Services.GetService<IMemoryCache>()!;
+        var storage = new InMemoryStorage(cache);
         await storage.MigrateAsyncEx<BrandHeader.BrandHeaderModel>();
         await storage.MigrateAsyncEx<BrandFooter.BrandFooterModel>();
         await storage.MigrateAsyncEx<BrandNavigation.BrandNavigationModel>();
-        
+
         await storage.MigrateAsyncEx<IndexNavigation.IndexNavigationModel>();
         await storage.MigrateAsyncEx<IndexIntroduction.IndexIntroductionModel>();
         await storage.MigrateAsyncEx<IndexLore.IndexLoreModel>();
@@ -40,8 +42,6 @@ public static class DependencyInjection
         await storage.MigrateAsyncEx<PressPresence.PressPresenceModel>();
         //------------------
 
-        builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
-
-        return builder;
+        return app;
     }
 }
