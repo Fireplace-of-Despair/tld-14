@@ -9,6 +9,7 @@ public sealed class Project
     public required string DivisionFull { get; set; }
 
     public required string Image { get; set; }
+    public required string ImageAlt { get; set; }
 
     public required string DescriptionShort { get; set; }
     public required string DescriptionFull { get; set; }
