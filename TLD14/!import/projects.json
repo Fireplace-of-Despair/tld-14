@@ -114,6 +114,21 @@
           "Links": {
             "royalroad_en": "https://www.royalroad.com/fiction/51705/acroamatic-security-pocket-reference"
           }
+        },
+        {
+          "Key": "TLD-14",
+          "DivisionKey": "tld",
+          "DivisionFull": "Tamed Logic Division",
+          "ReleaseDate": "2024-06-19T00:00:00.000Z",
+          "Name": "TLD-14",
+          "Image": "/images/projects/tld-14.png",
+          "ImageAlt": "The code and the logo",
+          "DescriptionShort": "The current iteration of this website. Quick, straightforward and simple.",
+          "DescriptionFull": "The current version of this website represents a significant departure from its <a href=\"https://github.com/stainless-chief/ss-pbc\">predecessor</a>. Designed with simplicity in mind, it avoids complex infrastructure, advanced technologies, databases, caching systems, and enterprise-level practices.<br/><br/>The previous iteration was underutilized and maintenance-intensive.<br/><br/>Therefore, we streamlined the design and functionality, making it as straightforward as possible.",
+          "LinksAlt": "Links",
+          "Links": {
+            "github_": "https://github.com/Fireplace-of-Despair/tld-14"
+          }
         }
       ]
     },
@@ -230,6 +245,21 @@
           "LinksAlt": "リンク",
           "Links": {
             "royalroad_en": "https://www.royalroad.com/fiction/51705/acroamatic-security-pocket-reference"
+          }
+        },
+        {
+          "Key": "TLD-14",
+          "DivisionKey": "tld",
+          "DivisionFull": "Tamed Logic Division",
+          "ReleaseDate": "2024-06-19T00:00:00.000Z",
+          "Name": "TLD-14",
+          "Image": "/images/projects/tld-14.png",
+          "ImageAlt": "コードとロゴ",
+          "DescriptionShort": "このウェブサイトの現在のイテレーション。素早く、わかりやすく、シンプル。",
+          "DescriptionFull": "このウェブサイトの現在のバージョンは、<a href=\"https://github.com/stainless-chief/ss-pbc\">以前のもの</a>とは大きく異なっています。シンプルさを念頭に置いて設計され、複雑なインフラ、高度な技術、データベース、キャッシュシステム、企業レベルの慣行を避けている。<br/><br/>以前のウェブサイトは、あまり活用されておらず、メンテナンスに手間がかかっていました。<br/><br/>そこで、デザインと機能を合理化し、可能な限りわかりやすくしました。",
+          "LinksAlt": "リンク",
+          "Links": {
+            "github_": "https://github.com/Fireplace-of-Despair/tld-14"
           }
         }
       ]
