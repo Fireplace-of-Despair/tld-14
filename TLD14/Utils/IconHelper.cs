@@ -7,8 +7,8 @@ public static class IconHelper
     public static string GetLanguage(string key)
     {
         var defaultLanguage = LocalizationInjection.Cultures[0].Name;
-
         var language = key.Split("_").LastOrDefault();
+
         if (string.IsNullOrEmpty(language))
         { 
             return defaultLanguage.ToUpper();
