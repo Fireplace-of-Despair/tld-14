@@ -1,3 +1,6 @@
+using Microsoft.AspNetCore.DataProtection;
+using Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel;
+using Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption;
 using TLD14.Composition;
 
 namespace TLD14;
@@ -10,6 +13,14 @@ public static class Program
         await builder.ConfigureServices();
 
         builder.ConfigureLocalization();
+        builder.Services.AddDataProtection()
+            .PersistKeysToFileSystem(new DirectoryInfo(Locations.Keys))
+            .UseCryptographicAlgorithms(
+                new AuthenticatedEncryptorConfiguration 
+                {
+                    EncryptionAlgorithm = EncryptionAlgorithm.AES_256_CBC,
+                    ValidationAlgorithm = ValidationAlgorithm.HMACSHA256
+                });
 
         var app = builder.Build();
         await app.ConfigureStorage();
@@ -22,7 +33,7 @@ public static class Program
         }
 
 
-        app.UseHttpsRedirection();
+        //app.UseHttpsRedirection();
         app.UseStaticFiles();
 
         app.UseRouting();
