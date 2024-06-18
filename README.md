@@ -1,5 +1,5 @@
 # TLD-14
-Website. Small and simple.
+Just a website. Small and simple.
 
 # Tech
 - [Razor Pages](https://learn.microsoft.com/en-us/aspnet/core/razor-pages/)
