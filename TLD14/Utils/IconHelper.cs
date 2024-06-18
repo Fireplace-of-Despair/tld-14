@@ -31,10 +31,11 @@ public static class IconHelper
             "pixiv" => "/icons/pixiv.svg",
             "royalroad" => "/icons/royalroad.svg",
             "steam" => "/icons/steam.svg",
-            "telegram" => "/icons/telegram.svg",
             "youtube" => "/icons/youtube.svg",
-            "mail" => "/icons/email.svg",
             "linkedin" => "/icons/linkedin.svg",
+
+            "telegram" => "/icons/telegram.svg",
+            "mail" => "/icons/email.svg",
             _ => "/icons/default.svg",
         };
     }
