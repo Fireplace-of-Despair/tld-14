@@ -16,9 +16,5 @@
     <RepositoryType>git</RepositoryType>
     <EnforceCodeStyleInBuild>True</EnforceCodeStyleInBuild>
   </PropertyGroup>
-  
-  <PropertyGroup>
-    <PublishAot>true</PublishAot>
-  </PropertyGroup>
 
 </Project>

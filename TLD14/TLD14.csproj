@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
@@ -17,14 +17,11 @@
     <RepositoryType>git</RepositoryType>
     <EnforceCodeStyleInBuild>True</EnforceCodeStyleInBuild>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <InvariantGlobalization>false</InvariantGlobalization>
   </PropertyGroup>
 
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <IsPublishable>False</IsPublishable>
-  </PropertyGroup>
-
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-    <IsPublishable>False</IsPublishable>
+  <PropertyGroup>
+    <IsTransformWebConfigDisabled>true</IsTransformWebConfigDisabled>
   </PropertyGroup>
 
   <ItemGroup>
