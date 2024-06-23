@@ -12,12 +12,6 @@ jobs:
       - name: Check out repository code
         uses: actions/checkout@v4
 
-      - name: get version
-        id: get_version
-        uses: stainless-chief/gaction-version-getter@v2
-        with:
-          projectPath: 'TLD14/TLD14.csproj'
-
       - name: Build
         run: |
           docker build -t tld14 .
