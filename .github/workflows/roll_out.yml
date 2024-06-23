@@ -1,0 +1,38 @@
+name: "Roll out"
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  roll-out:
+    runs-on:  ubuntu-latest
+
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v4
+
+      - name: get version
+        id: get_version
+        uses: stainless-chief/gaction-version-getter@v1
+        with:
+          projectPath: 'TLD14/TLD14.csproj'
+
+      - name: Build
+        run: |
+          docker build -t tld14 .
+          docker tag tld14 fod/tld14:${{steps.get_version.outputs.projectVersion}}
+          docker tag tld14 fod/tld14:latest
+          docker save -o tld14.tar tld14
+
+      - name: rsync deployments
+        uses: burnett01/rsync-deployments@7.0.1
+        with:
+          switches: -avzr --delete
+          path: tld14.tar
+          remote_path: ${{ secrets.DEPLOY_PATH }}
+          remote_host: ${{ secrets.DEPLOY_HOST }}
+          remote_port: ${{ secrets.DEPLOY_PORT }}
+          remote_user: ${{ secrets.DEPLOY_USER }}
+          remote_key: ${{ secrets.DEPLOY_KEY }}
+          remote_key_pass: ${{ secrets.DEPLOY_KEY_PASS }}
