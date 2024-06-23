@@ -14,7 +14,7 @@ jobs:
 
       - name: get version
         id: get_version
-        uses: stainless-chief/gaction-version-getter@v1
+        uses: stainless-chief/gaction-version-getter@v2
         with:
           projectPath: 'TLD14/TLD14.csproj'
 
