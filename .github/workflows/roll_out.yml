@@ -15,7 +15,6 @@ jobs:
       - name: Build
         run: |
           docker build -t tld14 .
-          docker tag tld14 fod/tld14:${{steps.get_version.outputs.projectVersion}}
           docker tag tld14 fod/tld14:latest
           docker save -o tld14.tar tld14
 
