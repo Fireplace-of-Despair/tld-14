@@ -1,7 +1,7 @@
 ﻿@using TLD14.Localizations
 @model BrandNavigation.BrandNavigationModel
 
-<nav class="brand-navigation-container" role="navigation" lang="@Context.GetRequestLanguage()">
+<nav class="brand-navigation-container" lang="@Context.GetRequestLanguage()">
     @foreach (var item in Model.Properties!)
     {
         var className =

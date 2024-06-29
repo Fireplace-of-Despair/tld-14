@@ -1,7 +1,7 @@
 ﻿@using TLD14.Localizations
 @model IndexNavigation.IndexNavigationModel
 
-<nav class="index-navigation-container" role="navigation" lang="@Context.GetRequestLanguage()">
+<nav class="index-navigation-container" lang="@Context.GetRequestLanguage()">
     @foreach (var item in Model.Properties ?? [])
     {
         <a class="index-navigation" href="@item.Anchor">
