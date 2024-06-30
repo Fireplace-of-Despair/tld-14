@@ -16,7 +16,8 @@ jobs:
         run: |
           docker build -t tld14 .
           docker tag tld14 fod/tld14:latest
-          docker save -o tld14.tar tld14
+          docker save -o tld14.tar tld14:latest
+          docker save -o tld14.tar fod/tld14:latest
 
       - name: rsync deployments
         uses: burnett01/rsync-deployments@7.0.1
@@ -29,4 +30,32 @@ jobs:
           remote_user: ${{ secrets.DEPLOY_USER }}
           remote_key: ${{ secrets.DEPLOY_KEY }}
           remote_key_pass: ${{ secrets.DEPLOY_KEY_PASS }}
+
+      - name: Configure SSH
+        run: |
+          mkdir -p ~/.ssh/
+          echo "$SSH_KEY" > ~/.ssh/staging.key
+          chmod 600 ~/.ssh/staging.key
+          cat >>~/.ssh/config <<END
+          Host staging
+            HostName $SSH_HOST
+            User $SSH_USER
+            IdentityFile ~/.ssh/staging.key
+            StrictHostKeyChecking no
+          END
+        env:
+          SSH_USER: ${{ secrets.DEPLOY_USER }}
+          SSH_KEY: ${{ secrets.DEPLOY_KEY }}
+          SSH_HOST: ${{ secrets.DEPLOY_HOST }}
+
+      - name: Stop all
+        run: ssh staging 'docker stop $(docker ps -a -q)'
+      - name: Delete old
+        run: ssh staging 'docker rm /tld14 && docker rmi tld14:latest'
+      - name: Import new
+        run: ssh staging 'cd /uploads && docker load --input tld14.tar'
+      - name: Start
+        run: ssh staging 'cd /config && docker-compose up -d'
+      - name: Cleanup
+        run: ssh staging 'rm /uploads/tld14.tar'
 
