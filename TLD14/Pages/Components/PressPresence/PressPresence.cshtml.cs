@@ -1,8 +1,11 @@
 ﻿using Common.Attributes;
 using Microsoft.AspNetCore.Mvc;
+using TLD14.Composition;
 using TLD14.Infrastructure;
 using TLD14.Localizations;
 using TLD14.Models;
+using TLD14.Utils;
+using static TLD14.Pages.Components.IndexIntroduction.IndexIntroduction;
 
 namespace TLD14.Pages.Components.PressPresence;
 
@@ -36,6 +39,8 @@ public sealed class PressPresence(IStorage storage) : ViewComponent
         (
             HttpContext.GetRequestLanguage()
         );
+
+        ViewData[Constants.OpenGraph.Description] = Model.Properties!.Description.Minify();
 
         return View(GetType().Name, Model);
     }

@@ -1,5 +1,6 @@
 ﻿@page
 @using Microsoft.AspNetCore.Localization
+@using TLD14.Composition
 @using TLD14.Pages.Components.Contact
 @using TLD14.Pages.Components.Archive
 @using TLD14.Pages.Components.IndexIntroduction
@@ -10,7 +11,10 @@
 @model IndexModel
 
 @{
-    ViewData["Title"] = "Fireplace of Despair";
+    ViewData[Constants.Header.Title] = Constants.Header.TitleValue;
+    ViewData[Constants.OpenGraph.Url] =
+        $"https://{ViewContext.HttpContext.Request.Host}"+
+                $"{ViewContext.HttpContext.Request.Path}";
 }
 
 @await Component.InvokeAsync(nameof(IndexNavigation))

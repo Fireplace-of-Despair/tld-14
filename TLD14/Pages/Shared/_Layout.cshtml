@@ -1,4 +1,5 @@
-﻿@using TLD14.Pages.Components.BrandFooter
+﻿@using TLD14.Composition
+@using TLD14.Pages.Components.BrandFooter
 @using TLD14.Pages.Components.BrandHeader
 @using TLD14.Pages.Components.BrandNavigation
 @using TLD14.Pages.Components.CommonScrollToTop
@@ -16,7 +17,7 @@
          
         <!-- Search Engine Optimization Meta Tags -->
         <meta name="description" content="&ldquo;Fireplace of Despair&rdquo; is a creation of Stanislav &ldquo;Chief&rdquo; Shevtsov. The place where suffering builds. You know where I am going with it.">
-        <meta name="keywords" content="Stan, Chief, Izumo, Fireplace of Despair">
+        <meta name="keywords" content="Stan, Master Stan, Chief, Izumo, Fireplace of Despair, スタン, 出雲市">
         <meta name="copyright" content="Fireplace of Despair">
         <meta name="revisit-after" content="7 days">
         <meta name="distribution" content="web">
@@ -24,6 +25,13 @@
         <meta name="coverage" content='Worldwide'>
         <meta name="distribution" content="Global">
         <meta name="rating" content="General">
+        
+        <!-- Open Graph-->
+        <meta property="og:title" content="@ViewData["Title"]">
+        <meta property="og:description" content="@ViewData[Constants.OpenGraph.Description]">
+        <meta property="og:url" content="@ViewData[Constants.OpenGraph.Url]">
+        <meta property="og:type" content="website">
+        <meta property="og:image" content="@ViewData[Constants.OpenGraph.Image]">
 
         <!-- mobile meta tags -->
         <meta name="format-detection" content="telephone=yes">
