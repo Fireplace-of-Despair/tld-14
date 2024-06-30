@@ -116,11 +116,11 @@
           }
         },
         {
-          "Key": "TLD-14",
+          "Key": "tld-14",
           "DivisionKey": "tld",
           "DivisionFull": "Tamed Logic Division",
           "ReleaseDate": "2024-06-19T00:00:00.000Z",
-          "Name": "TLD-14",
+          "Name": "tld-14",
           "Image": "/images/projects/tld-14.png",
           "ImageAlt": "The code and the logo",
           "DescriptionShort": "The current iteration of this website. Quick, straightforward and simple.",
@@ -248,11 +248,11 @@
           }
         },
         {
-          "Key": "TLD-14",
+          "Key": "tld-14",
           "DivisionKey": "tld",
           "DivisionFull": "Tamed Logic Division",
           "ReleaseDate": "2024-06-19T00:00:00.000Z",
-          "Name": "TLD-14",
+          "Name": "tld-14",
           "Image": "/images/projects/tld-14.png",
           "ImageAlt": "コードとロゴ",
           "DescriptionShort": "このウェブサイトの現在のイテレーション。素早く、わかりやすく、シンプル。",

@@ -21,6 +21,10 @@ public static class Program
                     EncryptionAlgorithm = EncryptionAlgorithm.AES_256_CBC,
                     ValidationAlgorithm = ValidationAlgorithm.HMACSHA256
                 });
+        builder.Services.Configure<RouteOptions>(options =>
+        {
+            options.LowercaseUrls = true;
+        });
 
         var app = builder.Build();
         await app.ConfigureStorage();
@@ -32,8 +36,6 @@ public static class Program
             app.UseHsts();
         }
 
-
-        //app.UseHttpsRedirection();
         app.UseStaticFiles();
 
         app.UseRouting();
