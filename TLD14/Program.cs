@@ -36,6 +36,7 @@ public static class Program
             app.UseHsts();
         }
 
+        app.UseWebOptimizer();
         app.UseStaticFiles();
 
         app.UseRouting();

@@ -20,6 +20,7 @@ public static class DependencyInjection
         builder.Services.AddSingleton<IStorage, InMemoryStorage>();
         builder.Services.AddMemoryCache();
         builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+        builder.Services.AddWebOptimizer();
 
         return Task.FromResult(builder);
     }
