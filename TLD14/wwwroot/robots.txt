@@ -1,0 +1,7 @@
+﻿User-agent: *
+
+Disallow: /ssd/
+
+Sitemap: https://fireplace-of-despair.org/sitemap.xml
+Sitemap: https://fireplace-of-despair.org/en/sitemap.xml
+Sitemap: https://fireplace-of-despair.org/ja/sitemap.xml
