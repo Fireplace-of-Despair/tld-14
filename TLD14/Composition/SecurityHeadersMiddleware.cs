@@ -6,6 +6,10 @@ public sealed class SecurityHeadersMiddleware(RequestDelegate next)
 {
     public Task Invoke(HttpContext context)
     {
+        context.Response.Headers.Append(
+            "Cache-Control",
+            new StringValues("no-cache"));
+
         // https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Referrer-Policy
         context.Response.Headers.Append(
             "referrer-policy",
@@ -68,11 +72,7 @@ public sealed class SecurityHeadersMiddleware(RequestDelegate next)
         // https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP
         // https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy
         context.Response.Headers.Append("Content-Security-Policy", new StringValues(
-            "child-src 'none';" +
-            "fenced-frame-src 'none';" +
-            "frame-src 'none';" +
-            "object-src 'none';" +
-            "worker-src 'none';"
+            "default-src 'self';"
             ));
 
         return next(context);
