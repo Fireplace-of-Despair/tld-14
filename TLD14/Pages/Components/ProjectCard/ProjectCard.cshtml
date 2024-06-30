@@ -5,7 +5,7 @@
 <div id="@Model.Key" class="project" lang="@Context.GetRequestLanguage()">
     <div class="project-image-container">
         <a asp-page="/Project" asp-route-code="@Model.Key">
-            <img class="project-image" src="@Model.Image" alt="@Model.ImageAlt" />
+            <img class="project-image" src="@Model.Image" alt="@Model.ImageAlt">
         </a>
         <div class="project-image-overlay-division"
              data-tooltip="@Model.DivisionFull">
@@ -36,7 +36,7 @@
                 </div>
                 <img class="project-button"
                      src="@IconHelper.GetIcon(@link.Key)"
-                     alt="@link.Key" />
+                     alt="@link.Key">
             </a>
         }
     </div>
