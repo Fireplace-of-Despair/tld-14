@@ -56,7 +56,7 @@ jobs:
       - name: Setup SSH passphrase
         env:
           SSH_PASSPHRASE: ${{secrets.DEPLOY_KEY_PASS}}
-          SSH_PRIVATE_KEY: ${{secrets.DEPLOY_USER}}
+          SSH_PRIVATE_KEY: ${{secrets.DEPLOY_KEY}}
         run: |
             ssh-agent -a $SSH_AUTH_SOCK > /dev/null
             echo 'echo $SSH_PASSPHRASE' > ~/.ssh_askpass && chmod +x ~/.ssh_askpass
