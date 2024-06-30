@@ -10,7 +10,7 @@
                 : "brand-navigation";
 
         <a class="@className"
-           asp-page="@item.Page.ToLowerInvariant()">
+           asp-page="@item.Page.ToLowerInvariant()" rel="canonical">
             @item.Name
         </a>
     }

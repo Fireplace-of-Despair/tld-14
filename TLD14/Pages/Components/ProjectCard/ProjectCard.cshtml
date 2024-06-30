@@ -4,7 +4,7 @@
 
 <div id="@Model.Key" class="project" lang="@Context.GetRequestLanguage()">
     <div class="project-image-container">
-        <a asp-page="/Project" asp-route-code="@Model.Key">
+        <a asp-page="/Project" asp-route-code="@Model.Key" rel="canonical">
             <img class="project-image" src="@Model.Image" alt="@Model.ImageAlt">
         </a>
         <div class="project-image-overlay-division"
@@ -20,7 +20,7 @@
         }
     </div>
 
-    <a asp-page="/Project" asp-route-code="@Model.Key" class="project-title">
+    <a asp-page="/Project" asp-route-code="@Model.Key" class="project-title" rel="canonical">
         <b>@Model.Name</b>
     </a>
     <div class="project-description">
