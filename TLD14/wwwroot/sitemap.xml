@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <url>
+    <loc>https://fireplace-of-despair.org/en/Index</loc>
+    <lastmod>2024-06-29T00:00:00+00:00</lastmod>
+    <priority>1.00</priority>
+  </url>
+  <url>
+    <loc>https://fireplace-of-despair.org/en/Archive</loc>
+    <lastmod>2024-06-29T00:00:00+00:00</lastmod>
+    <priority>0.50</priority>
+  </url>
+  <url>
+    <loc>https://fireplace-of-despair.org/en/Press</loc>
+    <lastmod>2024-06-29T00:00:00+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://fireplace-of-despair.org/en/Project/TLD-14</loc>
+    <lastmod>2024-06-29T00:00:00+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://fireplace-of-despair.org/en/Project/ss-acroamatic-security</loc>
+    <lastmod>2024-06-29T00:00:00+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://fireplace-of-despair.org/en/Project/ss-ritds</loc>
+    <lastmod>2024-06-29T00:00:00+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://fireplace-of-despair.org/en/Project/ss-blacwaco</loc>
+    <lastmod>2024-06-29T00:00:00+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://fireplace-of-despair.org/en/Project/ss-ysl</loc>
+    <lastmod>2024-06-29T00:00:00+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://fireplace-of-despair.org/en/Project/qsd-10</loc>
+    <lastmod>2024-06-29T00:00:00+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://fireplace-of-despair.org/en/Project/ss-pbc</loc>
+    <lastmod>2024-06-29T00:00:00+00:00</lastmod>
+    <priority>0.45</priority>
+  </url>
+  <url>
+    <loc>https://fireplace-of-despair.org/en/Project/ss-tgfmb</loc>
+    <lastmod>2024-06-29T00:00:00+00:00</lastmod>
+    <priority>0.45</priority>
+  </url>
+
+
+</urlset>
