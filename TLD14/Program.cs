@@ -35,7 +35,7 @@ public static class Program
             app.UseExceptionHandler("/Error");
             app.UseHsts();
         }
-
+        app.UseMiddleware<SecurityHeadersMiddleware>();
         app.UseWebOptimizer();
         app.UseStaticFiles();
 
