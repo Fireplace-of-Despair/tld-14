@@ -72,7 +72,8 @@ public sealed class SecurityHeadersMiddleware(RequestDelegate next)
         // https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP
         // https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy
         context.Response.Headers.Append("Content-Security-Policy", new StringValues(
-            "default-src 'self';"
+            "default-src 'self';" +
+            "script-src 'self' 'unsafe-inline' 'unsafe-eval';"
             ));
 
         return next(context);
