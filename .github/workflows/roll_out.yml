@@ -65,7 +65,7 @@ jobs:
       - name: Stop all
         run: ssh staging 'docker stop $(docker ps -a -q)'
       - name: Delete old
-        run: ssh staging 'docker rm /tld14 && docker rmi tld14:latest'
+        run: ssh staging 'docker rm /tld14 && docker rmi fod/tld14'
       - name: Import new
         run: ssh staging 'cd /uploads && docker load --input tld14.tar'
       - name: Start
